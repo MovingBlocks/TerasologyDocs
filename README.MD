@@ -1,7 +1,13 @@
-[Sphinx](http://www.sphinx-doc.org) based documentation for Terasology.
+#Project
 
-Requires `sphinix`, `sphinx-autobuild` and `sphinx_rtd_theme` to be installed (install via python `pip`).
+[Sphinx](http://www.sphinx-doc.org) based documentation for [Terasology](https://github.com/MovingBlocks/Terasology). Aim of this project is to bundle existing documentation and re-structure it in a more user-friendly way.
+
+Preview is available at https://oniatus.github.io/
+
+#Contributing
+
+Requires `sphinx`, `sphinx-autobuild` and `sphinx_rtd_theme` to be installed (install via python `pip`).
 
 Running the server for live-editing: `sphinx-autobuild source build/html` then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 
-Building the html: `sphinx-build -b html source build`
+Build the page: `sphinx-build -b html source build`.
