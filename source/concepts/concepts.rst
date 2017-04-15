@@ -5,7 +5,7 @@ Concepts
    :maxdepth: 2
    
    blockWorld
-   assetSystem
    entitySystem
+   assetSystem
    modules
    multiplayer

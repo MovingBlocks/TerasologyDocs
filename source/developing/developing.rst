@@ -7,3 +7,4 @@ Developer Guides
    blocks
    eventsSystems
    commands
+   network
