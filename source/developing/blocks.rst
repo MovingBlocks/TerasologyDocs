@@ -4,10 +4,15 @@ Blocks
 .. todo::
    https://github.com/Terasology/TutorialAssetSystem/wiki/Block-Definition
 
+
+.. _block_attributes:
+
 Attributes
 ----------
 .. todo::
    https://github.com/Terasology/TutorialAssetSystem/wiki/Block-Attributes
+
+.. _block_shapes:
    
 Shapes
 ------
@@ -21,6 +26,7 @@ Block Families
 .. todo::
    https://github.com/Terasology/TutorialAssetSystem/wiki/Block-Families
    
+.. _block_entities:
    
 Blocks and Entities
 -------------------
