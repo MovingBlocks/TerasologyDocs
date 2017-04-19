@@ -1,3 +1,5 @@
+.. _entity_System:
+
 Entity System
 =============
 

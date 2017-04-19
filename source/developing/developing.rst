@@ -8,3 +8,4 @@ Developer Guides
    eventsSystems
    commands
    network
+   modules
