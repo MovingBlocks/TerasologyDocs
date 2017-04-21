@@ -2,10 +2,9 @@ Developer Guides
 ================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    
-   blocks
-   eventsSystems
-   commands
-   network
-   modules
+   blocks/blocks
+   entitySystem/entitySystem
+   modules/modules
+   networkMultiplayer/networkMultiplayer

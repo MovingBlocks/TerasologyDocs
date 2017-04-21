@@ -2,7 +2,7 @@ Welcome to the Terasology Documentation!
 ========================================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    
    projectOverview
    developerIntro/developerIntro
