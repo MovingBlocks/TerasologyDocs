@@ -33,11 +33,16 @@ import sphinx_rtd_theme
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.todo',
-    'sphinx.ext.imgmath', 'edit_on_github']
+    'sphinx.ext.imgmath', 'edit_on_github', 'javasphinx']
 
 # edit_on_github
 edit_on_github_project = 'oniatus/TerasologyDocs'
 edit_on_github_branch = 'master/source'
+
+#javasphinx
+javadoc_url_map = {
+    'org.terasology' : ('https://oniatus.github.io/javadoc', 'javadoc8')
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
