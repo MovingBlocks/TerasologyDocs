@@ -51,6 +51,8 @@ This provides two valuable features:
 1. It provides a mechanism for an entity to react to an event based on the components it has. This means that someone can later on create their own component and system combination that reacts to Damage events differently.
 2. Because an event can be received by multiple systems, it is possible for modders to intercept and modify or cancel an event to change behaviour. An armor component could be added that halves all damage, and set up to intercept the damage event - without having to change the health system at all.
 
+.. note::
+  Developing guide for ``Event`` please see :doc:`Events and Systems </developing/entitySystem/eventsSystems>`
 
 .. [#] http://www.richardlord.net/blog/what-is-an-entity-framework
 .. [#] http://www.richardlord.net/blog/why-use-an-entity-framework

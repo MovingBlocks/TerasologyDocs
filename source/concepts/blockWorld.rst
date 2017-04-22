@@ -14,4 +14,4 @@ If additional properties or behavior for blocks are required (e.g. a chest which
 
 Have a look at the :doc:`blocks developer guides </developing/blocks>` for further topics like the :ref:`block attributes <block_attributes>`, :ref:`shapes <block_shapes>`, or :ref:`entity-based properties <block_entities>`.
 
-.. [#] Chunk size definition is contained in :code:`org.terasology.world.chunks.ChunkConstants`.
+.. [#] Chunk size definition is contained in :java:ref:`ChunkConstants <org.terasology.world.chunks.ChunkConstants>`.
