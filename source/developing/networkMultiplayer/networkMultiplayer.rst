@@ -1,5 +1,5 @@
-Entity System
-=============
+Networking and Multiplayer
+==========================
 
 .. toctree::
    :maxdepth: 4

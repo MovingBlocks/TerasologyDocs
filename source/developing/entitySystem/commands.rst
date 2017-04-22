@@ -31,7 +31,7 @@ Looking at this simple examples we can see several important things:
 * A returned string will be shown in the console.
 
 Annotation and Command Name
-------------------
+---------------------------
 
 To specify a new console command, just an **annotated public method** is needed in a :java:ref:`ComponentSystem <org.terasology.entitySystem.system.ComponentSystem>`. The annotation is
 
@@ -43,7 +43,7 @@ and marks the method as a command. The command will have the same name as the me
 **e.g.** if you name you method ``public void hello()`` the command ``hello`` will be available in the game.
 
 Short Descriptions and Help Text
------------------
+--------------------------------
 Short descriptions and help texts can be added via the method annotation. To specify a short description, just add ``shortDescription = "text for short description"`` to the annotation, **e.g.**
 
 .. code-block:: java
@@ -57,14 +57,14 @@ Probably longer help text can be specified via ``helpText`` in the annotaion. An
     @Command( helpText = "A command without short description, but with a longer help text." )
 
 Displaying Text
-------------------
+---------------
 
 Any value returned from the command (``String`` or ``Object``) will be displayed in the in game :doc:`console </playing/console>`.
 
 You can also write directly to the console via the :java:ref:`Console <org.terasology.logic.console.Console>` class.
 
 Parameters
--------------------
+----------
 
 Of course it is possible to give parameters/arguments to your command when executed in the command line. These
 arguments are specified as method arguments. It is highly recommended to prefix the method arguments by a parameter
@@ -85,7 +85,7 @@ resulting in user friendly help messages and command description.
   The supported types for command parameters are: ``float``, ``int``, ``String``. The ``final EntityRef`` parameter is supported only when the commands are set to ``runOnServer``. See :ref:`Commands and Multiplayer <commands_multiplayer>`
 
 Commands and Multiplayer
--------------------
+------------------------
 
 By default, commands run locally - on the client side.
 A command can be marked as ``runOnServer``, in which case it will be replicated to the server in a multiplayer game and executed there:
