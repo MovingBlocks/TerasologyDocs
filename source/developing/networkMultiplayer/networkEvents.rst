@@ -1,12 +1,13 @@
+.. _network_events:
+
 Network Events
 ==============
 
-.. _network_events:
 
 By default, system events aren't sent over the network. To send events over the network, you should mark the event as :ref:`ServerEvent <networkEvents_serverEvent>`, :ref:`BroadcastEvent <networkEvents_broadcastEvent>` or :ref:`OwnerEvent <networkEvents_ownerEvent>`
 
 .. note::
-  If an event is marked as a network event, its fields are all replicated by default.
+   If an event is marked as a network event, its fields are all replicated by default.
 
 .. _networkEvents_serverEvent:
 

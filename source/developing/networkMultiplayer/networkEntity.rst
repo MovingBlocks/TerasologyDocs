@@ -1,4 +1,5 @@
-.. _entity_networking:
+.. _network_entities:
+
 
 Entities, Components on the Network
 ===================================

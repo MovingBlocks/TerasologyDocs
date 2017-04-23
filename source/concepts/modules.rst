@@ -11,9 +11,9 @@ Structure of Modules
 - :code:`/assets` - Resources related to the module can be placed here and will be located by the :ref:`asset_system`. Sub-categories for assets like prefabs or block definitions are structured in sub-directories.
 - :code:`/deltas` and :code:`/overrides` - Modification directories for existing assets. These mechanics are described at `TutorialAssetSystem/Deltas-and-Overrides <https://github.com/Terasology/TutorialAssetSystem/wiki/Deltas-and-Overrides>`_.
 - :code:`build.gradle` - internal build file, should not be edited.
-- :code:`module.txt` - Configuration file for the module, similar to a maven :code:`pom.xml` or gradle build file. Have a look at the :ref:`next section <module_txt>` for details.
+- :code:`module.txt` - Configuration file for the module, similar to a maven :code:`pom.xml` or gradle build file. Have a look at the :ref:`module_txt` section for details.
 
-.. module_txt:
+.. _module_txt:
 
 module.txt
 ----------
