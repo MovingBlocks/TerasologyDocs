@@ -7,5 +7,6 @@ Conventions and Workflow
    contributing
    versioning
    documentationJavaDoc
+   documentationExternal
    unitTests
    translation
