@@ -6,6 +6,6 @@ Conventions and Workflow
    
    contributing
    versioning
-   documentation
+   documentationJavaDoc
    unitTests
    translation
