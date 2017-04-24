@@ -22,7 +22,7 @@ Definition file for a module, using JSON syntax.
 The following properties are supported:
 
 - :code:`id` - the internal identifier of the module.
-- :code:`version` - the version of the module, versions are stored in the format :code:`MAJOR.minor.patch(-SNAPSHOT)`.
+- :code:`version` - the version of the module, versions are stored in the format :code:`MAJOR.minor.patch(-SNAPSHOT)` (see :ref:`versions` for details).
 - :code:`author` - the author(s) of the module, could be any string. Default are single names or comma-separated lists.
 - :code:`displayName` - the name of the module which is shown ingame to the user.
 - :code:`description` - a textual description, what the module contains and how it affects the game.
@@ -39,7 +39,7 @@ The following properties are supported:
 
 Have a look at the `NeoTTA/module.txt <https://raw.githubusercontent.com/Terasology/NeoTTA/master/module.txt>`_ or other modules in the `Terasology <https://github.com/Terasology>`_ organization as examples.
 
-.. [#] See the :code:`@RegisterWorldGenerator`-annotation for details.
+.. [#] See :java:ref:`@RegisterWorldGenerator <org.terasology.world.generator.RegisterWorldGenerator>` for details.
 
 Namespace
 ---------
