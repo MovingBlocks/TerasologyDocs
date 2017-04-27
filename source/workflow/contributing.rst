@@ -48,6 +48,8 @@ With two remotes defined, you can now pull and push code between your local work
 - Wait for it to be accepted, optionally submit more changes (keep pushing commits to the same branch on your fork, the PR updates by itself).
 - After the PR is merged, update your local workspace with :code:`git pull origin develop`.
 
+.. _create_pr:
+
 Creating a Pull Request
 -----------------------
 
