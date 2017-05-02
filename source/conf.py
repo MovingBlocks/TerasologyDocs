@@ -33,7 +33,10 @@ import sphinx_rtd_theme
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.todo',
-    'sphinx.ext.imgmath', 'edit_on_github', 'javasphinx']
+    'sphinx.ext.imgmath',
+    'edit_on_github',
+    'javasphinx',
+    'sphinxcontrib.youtube']
 
 # edit_on_github
 edit_on_github_project = 'oniatus/TerasologyDocs'
@@ -166,6 +169,3 @@ texinfo_documents = [
      author, 'Terasology', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-

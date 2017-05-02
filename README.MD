@@ -4,11 +4,16 @@
 
 Preview is available at https://oniatus.github.io/.
 
-Separate JavaDoc for the engine is available at https://oniatus.github.io/javadoc. 
+Separate JavaDoc for the engine is available at https://oniatus.github.io/javadoc.
 
 # Contributing
 
-Requires `sphinx`, `sphinx-autobuild`, `javasphinx` and `sphinx_rtd_theme` to be installed (install via python `pip`).
+### Download
+Requires `sphinx`, `sphinx-autobuild`, `javasphinx`, `sphinx_rtd_theme` and `sphinxcontrib.youtube` to be installed (install via python `pip`).
+
+**Note** If you are using python3, `pip` will install `sphinx-autobuild` version 0.1.2 which is incompatible with python3. In this case, you might need to download https://github.com/shomah4a/sphinxcontrib.youtube and run `python setup.py install` to install it.  
+
+### Build
 
 Running the server for live-editing: `sphinx-autobuild source build/html` then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 

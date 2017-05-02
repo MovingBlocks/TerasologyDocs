@@ -1,3 +1,5 @@
+.. _concept_modules:
+
 Modules
 =======
 
@@ -27,7 +29,7 @@ The following properties are supported:
 - :code:`displayName` - the name of the module which is shown ingame to the user.
 - :code:`description` - a textual description, what the module contains and how it affects the game.
 - :code:`dependencies` - a list of *dependencies*, which are mappings to other modules with a given version. Each dependency has the following properties:
-  
+
   - :code:`id` - The id of the dependent module.
   - :code:`minVersion` - The minimum version of the dependent module (inclusive).
   - :code:`maxVersion` - The maximum version of the dependent module (exclusive).
@@ -35,7 +37,7 @@ The following properties are supported:
   - :code:`serverSideOnly` - A boolean, indicates if the module should only be available on the server and not on the client. Such modules are not downloaded by a client when he connects to a server.
   - :code:`isGameplay` - A boolean, indicates if the module should appear in the list of gameplay modules. Typically, such modules contain little logic or assets themselves but bundle other modules together.
   - :code:`defaultWorldGenerator` - The id of the default world generator [#]_ which should be activated with the module.
-   
+
 
 Have a look at the `NeoTTA/module.txt <https://raw.githubusercontent.com/Terasology/NeoTTA/master/module.txt>`_ or other modules in the `Terasology <https://github.com/Terasology>`_ organization as examples.
 

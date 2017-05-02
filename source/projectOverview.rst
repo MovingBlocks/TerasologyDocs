@@ -1,8 +1,14 @@
 Project Overview
 ================
+
+.. _codebase_structure:
+
+Codebase-Structure
+------------------
+
 .. todo::
    https://github.com/MovingBlocks/Terasology/wiki/Codebase-Structure
-   
+
 Sites
 -----
 Terasology is covered by mutliple online presences:
@@ -25,7 +31,7 @@ It's main contents are:
 - `TeraBullet <https://github.com/MovingBlocks/TeraBullet>`_ offers some voxel-world integrations with `JBullet <http://jbullet.advel.cz/>`_.
 - `Tera OVR <https://github.com/MovingBlocks/TeraOVR>`_, a wrapper for the `Oculus Rift <http://www.oculusvr.com/>`_ SDK.
 - `Gooey <https://github.com/MovingBlocks/Gooey>`_, our handy little `Hubot <http://hubot.github.com/>`_-based IRC bot offering witty banter and useful functionality like auto-creating GitHub repos. When he feels like it, anyway!
-- The `gestalt <https://github.com/MovingBlocks/gestalt>`_ library bundle, which contains the logic for our :doc:`Asset System <concepts/assetSystem>`, :doc:`Module System <concepts/modules>` and :doc:`Entity System <concepts/entitySystem>` 
+- The `gestalt <https://github.com/MovingBlocks/gestalt>`_ library bundle, which contains the logic for our :doc:`Asset System <concepts/assetSystem>`, :doc:`Module System <concepts/modules>` and :doc:`Entity System <concepts/entitySystem>`
 - And some more, like our `repository configuration <https://github.com/MovingBlocks/TeraConfig>`_, `math libraries <https://github.com/MovingBlocks/TeraMath>`_, a `crash reporter <https://github.com/MovingBlocks/CrashReporter>`_, or `miscellaneous stuff <https://github.com/MovingBlocks/TeraMisc>`_.
 
 Content modules and extensions to the actual game are bundled at the `Terasology <https://github.com/terasology>`_ organization.
@@ -56,4 +62,3 @@ History and more
 If you are interested in the project's history, the goals and the origin of the name, have a look at `What is Terasology`__.
 
 __ https://github.com/MovingBlocks/Terasology/wiki/What-is-Terasology
-
