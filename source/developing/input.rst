@@ -128,4 +128,8 @@ Example output:
    
 .. note::
 
-  If the event is consumed for the client entity, it will not be send again to the player entity.
+  If the event is consumed for the client entity, it will not be sent again to the player entity.
+  
+.. todo::
+
+  client-player difference
