@@ -8,3 +8,6 @@ Developer Guides
    entitySystem/entitySystem
    modules/modules
    networkMultiplayer/networkMultiplayer
+   input
+   translation
+   

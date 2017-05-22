@@ -3,7 +3,7 @@
 Events
 ======
 
-Events are sent to exactly 1 entity. Systems can define methods, that get called when specific events get sent to entities with certain components.
+Events are sent to exactly one entity. Systems can define methods, that get called when specific events get sent to entities with certain components.
 
 Defining events
 ---------------

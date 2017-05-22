@@ -9,4 +9,3 @@ Conventions and Workflow
    documentationJavaDoc
    documentationExternal
    unitTests
-   translation
