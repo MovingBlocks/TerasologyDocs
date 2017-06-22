@@ -52,7 +52,7 @@ This provides two valuable features:
 2. Because an event can be received by multiple systems, it is possible for modders to intercept and modify or cancel an event to change behaviour. An armor component could be added that halves all damage, and set up to intercept the damage event - without having to change the health system at all.
 
 .. note::
-  Developing guide for ``Event`` please see :doc:`Events and Systems </developing/entitySystem/eventsSystems>`
+  Have a look at :ref:`Events <events>` for a guide how to develop and listen for events.
 
 .. [#] http://www.richardlord.net/blog/what-is-an-entity-framework
 .. [#] http://www.richardlord.net/blog/why-use-an-entity-framework

@@ -3,9 +3,9 @@ Quick Start
 
 If you are only interested in playing the game or hosting a server without own development, you can switch directly to the :doc:`Playing </playing/playing>` section.
 
-For smaller contributions, like small typo fixes or readme updates, you can use the :doc:`Light Workspace Setup</developerIntro/lightWorkspace>`, based on GitHub tools and direct file editing.
+For smaller contributions, like small typo fixes or readme updates, you can use the :ref:`Light Workspace Setup<light_workspace_setup>`, based on GitHub tools and direct file editing.
 
-More elaborated engine development or module development is better done on a full workspace setup with a programming IDE. Terasology supports either an :doc:`IntelliJ Workspace Setup </developerIntro/fullWorkspaceIntelliJ>` or an :doc:`Eclipse IDE Workspace Setup</developerIntro/fullWorkspaceEclipse>`.
+More elaborated engine development or module development is better done on a full workspace setup with a programming IDE. Terasology supports either an :ref:`IntelliJ Workspace Setup <ide_intellij>` or an :ref:`Eclipse IDE Workspace Setup<ide_eclipse>`.
 
 We also recommend to `introduce yourself on the forum <http://forum.terasology.org/forum/contributor-introductions.7>`_ and/or :doc:`visit us on IRC </developerIntro/usingIrc>` and let us know what you would like to do.
 You can find first issues to work on in the `engine issue tracker <https://github.com/MovingBlocks/Terasology/issues>`_. The `Bite-size <https://github.com/MovingBlocks/Terasology/labels/Bite-size>`_ category bundles issues estimated for some hours of work.

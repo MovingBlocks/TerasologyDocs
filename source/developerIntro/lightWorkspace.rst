@@ -1,3 +1,5 @@
+.. _light_workspace_setup:
+
 Light Workspace Setup
 =====================
 

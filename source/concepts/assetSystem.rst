@@ -3,6 +3,7 @@
 Asset System
 ============
 
+.. _prefabs:
 
 Prefabs
 -------
