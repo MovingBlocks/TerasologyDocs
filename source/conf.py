@@ -113,6 +113,12 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# Fix from http://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html for wide tables
+html_context = {
+    'css_files': [
+        '_static/theme_overrides.css',  # override wide tables in RTD theme
+        ],
+     }
 
 # -- Options for HTMLHelp output ------------------------------------------
 
