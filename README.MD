@@ -8,13 +8,37 @@ Separate JavaDoc for the engine is available at https://oniatus.github.io/javado
 
 # Contributing
 
-### Download
+Something is missing in the docs? Feel free to fork and submit a PR or open an [issue](https://github.com/oniatus/TerasologyDocs/issues).
+
+## Workspace setup
 Requires `sphinx`, `sphinx-autobuild`, `javasphinx`, `sphinx_rtd_theme` and `sphinxcontrib.youtube` to be installed (install via python `pip`).
 
 **Note** If you are using python3, `pip` will install `sphinx-autobuild` version 0.1.2 which is incompatible with python3. In this case, you might need to download https://github.com/shomah4a/sphinxcontrib.youtube and run `python setup.py install` to install it.  
 
-### Build
+Any editor for the `.rst` sources is fine, e.g. for Eclipse the [ReST Editor](http://marketplace.eclipse.org/content/rest-editor).
+
+## Build
 
 Running the server for live-editing: `sphinx-autobuild source build/html` then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 
 Build the page: `sphinx-build -b html source build`.
+
+
+# Page setup
+
+All page settings are configured in `conf.py`.
+
+## Mapping for the edit-on-github buttons:
+```
+edit_on_github_project = 'oniatus/TerasologyDocs'
+edit_on_github_branch = 'master/source'
+```
+
+## Javadoc location:
+```
+javadoc_url_map = {
+    'org.terasology' : ('https://oniatus.github.io/javadoc', 'javadoc8')
+}
+```
+
+For the setup inside the github page, create the javadoc with `./gradlew engine:javadoc` in the Terasology project, then copy the `engine/build/docs/javadoc` directory to the github page.
