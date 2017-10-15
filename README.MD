@@ -39,5 +39,3 @@ javadoc_url_map = {
     'org.terasology' : ('http://jenkins.terasology.org/job/Terasology/javadoc/', 'javadoc8')
 }
 ```
-
-For the setup inside the GitHub page, create the JavaDoc with `./gradlew engine:javadoc` in the Terasology project, then copy the `engine/build/docs/javadoc` directory to the GitHub page.
