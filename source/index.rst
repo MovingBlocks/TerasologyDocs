@@ -10,4 +10,4 @@ Welcome to the Terasology Documentation!
    developing/developing
    workflow/workflow
    playing/playing
-   JavaDoc (External) <https://oniatus.github.io/javadoc/index.html>
+   JavaDoc (External) <http://jenkins.terasology.org/job/Terasology/javadoc/>
