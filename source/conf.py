@@ -39,7 +39,7 @@ extensions = ['sphinx.ext.todo',
     'sphinxcontrib.youtube']
 
 # edit_on_github
-edit_on_github_project = 'oniatus/TerasologyDocs'
+edit_on_github_project = 'MovingBlocks/TerasologyDocs'
 edit_on_github_branch = 'master/source'
 
 #javasphinx

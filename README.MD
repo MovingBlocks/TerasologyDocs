@@ -2,13 +2,11 @@
 
 [Sphinx](http://www.sphinx-doc.org) based documentation for [Terasology](https://github.com/MovingBlocks/Terasology). Aim of this project is to bundle existing documentation and re-structure it in a more user-friendly way.
 
-Preview is available at https://oniatus.github.io/.
-
-Separate JavaDoc for the engine is available at https://oniatus.github.io/javadoc.
+The page of this documentation is available  https://metaterasology.github.io/docs/.
 
 # Contributing
 
-Something is missing in the docs? Feel free to fork and submit a PR or open an [issue](https://github.com/oniatus/TerasologyDocs/issues).
+Something is missing in the docs? Feel free to fork and submit a PR or open an [issue](https://github.com/MovingBlocks/TerasologyDocs/issues).
 
 ## Workspace setup
 Requires `sphinx`, `sphinx-autobuild`, `javasphinx`, `sphinx_rtd_theme` and `sphinxcontrib.youtube` to be installed (install via python `pip`).
@@ -30,7 +28,7 @@ All page settings are configured in `conf.py`.
 
 ## Mapping for the edit-on-github buttons:
 ```
-edit_on_github_project = 'oniatus/TerasologyDocs'
+edit_on_github_project = 'MovingBlocks/TerasologyDocs'
 edit_on_github_branch = 'master/source'
 ```
 
