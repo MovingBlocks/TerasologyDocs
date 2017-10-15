@@ -44,7 +44,7 @@ edit_on_github_branch = 'master/source'
 
 #javasphinx
 javadoc_url_map = {
-    'org.terasology' : ('https://oniatus.github.io/javadoc', 'javadoc8')
+    'org.terasology' : ('http://jenkins.terasology.org/job/Terasology/javadoc/', 'javadoc8')
 }
 
 # Add any paths that contain templates here, relative to this directory.

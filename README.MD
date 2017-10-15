@@ -9,6 +9,7 @@ The page of this documentation is available  https://metaterasology.github.io/do
 Something is missing in the docs? Feel free to fork and submit a PR or open an [issue](https://github.com/MovingBlocks/TerasologyDocs/issues).
 
 ## Workspace setup
+
 Requires `sphinx`, `sphinx-autobuild`, `javasphinx`, `sphinx_rtd_theme` and `sphinxcontrib.youtube` to be installed (install via python `pip`).
 
 **Note** If you are using python3, `pip` will install `sphinx-autobuild` version 0.1.2 which is incompatible with python3. In this case, you might need to download https://github.com/shomah4a/sphinxcontrib.youtube and run `python setup.py install` to install it.  
@@ -35,8 +36,8 @@ edit_on_github_branch = 'master/source'
 ## Javadoc location:
 ```
 javadoc_url_map = {
-    'org.terasology' : ('https://oniatus.github.io/javadoc', 'javadoc8')
+    'org.terasology' : ('http://jenkins.terasology.org/job/Terasology/javadoc/', 'javadoc8')
 }
 ```
 
-For the setup inside the github page, create the javadoc with `./gradlew engine:javadoc` in the Terasology project, then copy the `engine/build/docs/javadoc` directory to the github page.
+For the setup inside the GitHub page, create the JavaDoc with `./gradlew engine:javadoc` in the Terasology project, then copy the `engine/build/docs/javadoc` directory to the GitHub page.
