@@ -120,3 +120,11 @@ However, if the chest entity is not registered on the network, not all clients c
 
 
 Recall that the default ``ReplicateMode`` is :ref:`RELEVANT <network_replicateMode>`. This :java:ref:`NetworkComponent <org.terasology.network.NetworkComponent>` thus ensures that the chest entity will always be replicated by the server to a client whenever it is relevant to the client, ensuring that all interactions with the chest work as intended.
+
+In order to register an existing entity on the network a :java:ref:`NetworkComponent <org.terasology.network.NetworkComponent>` can be added to it by simply using the ``addComponent`` method for an entity. The ``ReplicateMode`` for the :java:ref:`NetworkComponent <org.terasology.network.NetworkComponent>` can also be set as required before adding the component to the entity. For example,
+
+.. code-block:: java
+
+  NetworkComponent netComp = new NetworkComponent();
+  netComp.replicateMode = NetworkComponent.ReplicateMode.ALWAYS;
+  entityRef.addComponent(netComp);
