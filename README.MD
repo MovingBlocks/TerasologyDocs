@@ -12,6 +12,8 @@ Something is missing in the docs? Feel free to fork and submit a PR or open an [
 
 Requires `sphinx`, `sphinx-autobuild`, `javasphinx`, `sphinx_rtd_theme` and `sphinxcontrib.youtube` to be installed (install via python `pip`).
 
+`pip install sphinx sphinx-autobuild javasphinx sphinx_rtd_theme sphinxcontrib.youtube`
+
 **Note** If you are using python3, `pip` will install `sphinx-autobuild` version 0.1.2 which is incompatible with python3. In this case, you might need to download https://github.com/shomah4a/sphinxcontrib.youtube and run `python setup.py install` to install it.  
 
 Any editor for the `.rst` sources is fine, e.g. for Eclipse the [ReST Editor](http://marketplace.eclipse.org/content/rest-editor).
