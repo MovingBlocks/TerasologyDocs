@@ -22,7 +22,7 @@ Fetching existing Modules
 
 Existing modules from the `Terasology organization <https://github.com/terasology>`_ can be fetched by running 
 
-:code:`gradlew fetchModuleSample` from the root of the Terasology workspace.
+:code:`groovyw module get Sample` from the root of the Terasology workspace.
 
 In this example, :code:`Sample` is the name of the module to fetch. Gradle will fetch the existing GitHub repository from https://github.com/Terasology/Sample to your workspace at :code:`modules/Sample`.
 
@@ -40,7 +40,7 @@ Create a new Module
 
 New modules can be created with a similar command:
 
-:code:`gradlew createModuleMySample`.
+:code:`groovyw module create MySample`.
 
 This will create a module named *MySample* at :code:`modules/MySample`.
 
