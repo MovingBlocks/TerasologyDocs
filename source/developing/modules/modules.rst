@@ -26,6 +26,9 @@ Existing modules from the `Terasology organization <https://github.com/terasolog
 
 In this example, :code:`Sample` is the name of the module to fetch. Gradle will fetch the existing GitHub repository from https://github.com/Terasology/Sample to your workspace at :code:`modules/Sample`.
 
+.. note::
+   Casing is important, :code:`groovyw module get health` will throw an error while :code:`groovyw module get Health` would work
+
 To properly adjust your workspace you need to regenerate the additional project files via :code:`gradlew idea`.
 
 The main difference to a :code:`git clone` is, that the gradle command will include a :code:`build.gradle` to the module, along with placeholder directories for all asset types and such.
